@@ -11,6 +11,8 @@ int main() {
    float area1;
    float pib1;
    int pontos1;
+   float densidade1;
+   float pibPerCapita1;
 
    // Variáves da carta de número 2
    char estado2;
@@ -76,6 +78,8 @@ int main() {
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontos1);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade1);
+    printf("PIB per Capita: %.2f reais\n", pibPerCapita1);
     
     printf("\n=== Carta 2 ===\n");
     printf("Estado: %c\n", estado2);
